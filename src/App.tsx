@@ -1,5 +1,7 @@
 import './App.css';
 
+import Message from './Message';
+
 function App() {
 
   // //adding basic type typescript
@@ -40,14 +42,15 @@ function App() {
          <h3> the value {firstArrayNum} is of {typeof(firstArrayNum)} type</h3>
          <h3> the value {firstArrayString} is of {typeof(firstArrayString)} type</h3> */}
 
-         {/* //adding tuple */}
+         {/* //adding tuple
         <h3> the value {aTuple[0]} is of {typeof(aTuple[0])} type</h3>
         <h3> the value {aTuple[1]} is of {typeof(aTuple[1])} type</h3>
 
         
          {/* //adding any */}
-         <h3> the value {firstName} is of {typeof(firstName)} type</h3>     
-  
+         {/* <h3> the value {firstName} is of {typeof(firstName)} type</h3>      */}
+
+         <Message  message='This is a simple message'/>
 
       </header>
     </div>
