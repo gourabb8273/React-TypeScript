@@ -10,14 +10,27 @@ import React from "react";
 
 ///OR
 
-type Props =  {message: string};
-const Message = (props: Props): any =>{
-    return (
-        <p>
-            {props.message}
-        </p>
-    )
+// type Props =  {message: string};
+// const Message = (props: Props): any =>{
+//     return (
+//         <p>
+//             {props.message}
+//         </p>
+//     )
+// }
+
+//using Interface
+interface Props {
+  message: string;
+  name: string;
+  age?: number;
 }
+const Message = (props: Props): any => {
+  return (
+    <p>
+      {props.name},{props.message}
+    </p>
+  );
+};
 
-
-export default Message
+export default Message;

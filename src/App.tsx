@@ -50,7 +50,7 @@ function App() {
          {/* //adding any */}
          {/* <h3> the value {firstName} is of {typeof(firstName)} type</h3>      */}
 
-         <Message  message='This is a simple message'/>
+         <Message name="Manny"  message='This is a simple message'/>
 
       </header>
     </div>
