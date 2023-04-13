@@ -2,6 +2,8 @@ import './App.css';
 
 import Message from './Message';
 
+
+
 function App() {
 
   // //adding basic type typescript
@@ -50,7 +52,8 @@ function App() {
          {/* //adding any */}
          {/* <h3> the value {firstName} is of {typeof(firstName)} type</h3>      */}
 
-         <Message name="Manny"  message='This is a simple message'/>
+         {/* <Message name="Manny"  message='This is a simple message'/> */}
+         <Message />
 
       </header>
     </div>
